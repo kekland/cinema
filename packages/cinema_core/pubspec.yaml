@@ -1,0 +1,11 @@
+name: cinema_core
+description: Core classes and interfaces for the `cinema` plugin
+version: 0.0.1
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter

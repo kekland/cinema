@@ -1,0 +1,29 @@
+name: cinema_darwin
+description: iOS and macOS implementation of the `cinema` plugin
+version: 0.0.1
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cinema_core: ^0.0.1
+  ffi: ^2.1.4
+  objective_c: ^8.1.0
+
+dev_dependencies: 
+  ffigen: ^19.1.0
+
+flutter:
+  plugin: 
+    implements: cinema
+    platforms:
+      ios:
+        pluginClass: CinemaPluginIos
+        sharedDarwinSource: true
+      macos:
+        pluginClass: CinemaPluginMacOS
+        sharedDarwinSource: true

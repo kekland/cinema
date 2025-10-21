@@ -1,0 +1,3 @@
+-keep class androidx.media3.** { *; }
+-keep class androidx.media3.common.C { *; }
+-keep class androidx.media3.common.C$** { *; }

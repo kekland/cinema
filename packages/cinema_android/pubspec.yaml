@@ -1,0 +1,25 @@
+name: cinema_android
+description: Android implementation of the `cinema` plugin
+version: 0.0.1
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cinema_core: ^0.0.1
+  jni: ^0.14.2
+
+dev_dependencies: 
+  jnigen: ^0.14.2
+
+flutter:
+  plugin: 
+    implements: cinema
+    platforms:
+      android:
+        package: com.kekland.cinema_android
+        pluginClass: CinemaPluginAndroid

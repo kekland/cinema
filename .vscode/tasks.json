@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "label": "cinema_darwin/ffigen",
+      "type": "shell",
+      "command": "cd packages/cinema_darwin && ./tool/ffigen.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "cinema_android/jnigen",
+      "type": "shell",
+      "command": "cd packages/cinema_android && ./tool/jnigen.py",
+      "problemMatcher": []
+    }
+  ]
+}

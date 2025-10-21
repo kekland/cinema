@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.dart_tool": true,
+    // "**/build": true,
+    "**/pubspec.lock": true,
+    ".fvm": true,
+    "**/*.iml": true,
+    "**/.idea": true,
+    "**/.flutter-plugins-dependencies": true,
+    "**/*.metadata": true,
+  },
+  "dart.flutterSdkPath": ".fvm/versions/3.35.3"
+}

@@ -1,0 +1,26 @@
+name: cinema
+description: A cross-platform video player/renderer for Flutter
+version: 0.0.1
+resolution: workspace
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cinema_core: ^0.0.1
+  cinema_android: ^0.0.1
+  cinema_darwin: ^0.0.1
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: cinema_android
+      ios:
+        default_package: cinema_darwin
+      macos:
+        default_package: cinema_darwin
+
