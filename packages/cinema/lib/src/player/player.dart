@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:cinema/cinema.dart';
 import 'package:cinema_darwin/cinema_darwin.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/widgets.dart';
 
 VideoPlayerImplementation _createPlayerImplementation() {
   if (Platform.isIOS || Platform.isMacOS) return DarwinVideoPlayerImplementation();

@@ -44,9 +44,7 @@ class IOSVideoPlayerWidget extends StatelessWidget {
       creationParams: avPlayerPointer,
       creationParamsCodec: const StandardMessageCodec(),
       hitTestBehavior: PlatformViewHitTestBehavior.transparent,
-      onPlatformViewCreated: (id) {
-        print('platform view ready: $id');
-      },
+      onPlatformViewCreated: (id) {},
     );
   }
 }
@@ -68,9 +66,7 @@ class MacOSVideoPlayerWidget extends StatelessWidget {
       creationParams: avPlayerPointer,
       creationParamsCodec: const StandardMessageCodec(),
       hitTestBehavior: PlatformViewHitTestBehavior.transparent,
-      onPlatformViewCreated: (id) {
-        print('platform view ready: $id');
-      },
+      onPlatformViewCreated: (id) {},
     );
   }
 }

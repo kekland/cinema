@@ -56,8 +56,6 @@ class PlayerDemoState extends State<PlayerDemo> {
 
   @override
   Widget build(BuildContext context) {
-    print(_media);
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Player Demo'),

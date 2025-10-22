@@ -29,9 +29,9 @@ class AndroidRendererImplementation extends RendererImplementation {
     transformer.addListener(
       Transformer$Listener.implement(
         $Transformer$Listener(
-          onCompleted: (_, __) => completer.complete(),
-          onError: (_, __, ___) {},
-          onFallbackApplied: (_, __, ___) {},
+          onCompleted: (_, _) => completer.complete(),
+          onError: (_, _, _) {},
+          onFallbackApplied: (_, _, _) {},
         ),
       ),
     );

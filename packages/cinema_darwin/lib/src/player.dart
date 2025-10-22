@@ -22,8 +22,6 @@ class DarwinVideoPlayerImplementation extends VideoPlayerImplementation {
 
   @override
   void play() {
-    print(_currentItem?.status);
-    print(_currentItem?.error?.toException());
     _avPlayer.play();
   }
 
