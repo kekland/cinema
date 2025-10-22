@@ -13,6 +13,8 @@
     "**/.idea": true,
     "**/.flutter-plugins-dependencies": true,
     "**/*.metadata": true,
+    "**/.build": true
   },
-  "dart.flutterSdkPath": ".fvm/versions/3.35.3"
+  "dart.flutterSdkPath": ".fvm/versions/3.35.3",
+  "swift.disableAutoResolve": true,
 }

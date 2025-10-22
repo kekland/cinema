@@ -11,14 +11,14 @@
       "type": "dart"
     },
     {
-      "name": "example (profile mode)",
+      "name": "example (profile)",
       "cwd": "packages/cinema/example",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile"
     },
     {
-      "name": "example (release mode)",
+      "name": "example (release)",
       "cwd": "packages/cinema/example",
       "request": "launch",
       "type": "dart",

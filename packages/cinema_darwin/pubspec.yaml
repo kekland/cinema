@@ -12,7 +12,7 @@ dependencies:
 
   cinema_core: ^0.0.1
   ffi: ^2.1.4
-  objective_c: ^8.1.0
+  objective_c: ^9.0.0-dev.0
 
 dev_dependencies: 
   ffigen: ^19.1.0

@@ -19,7 +19,7 @@ let package = Package(
             dependencies: [
                 .target(name: "cinema_darwin_bindings"),
                 .target(name: "cinema_ios", condition: .when(platforms: [.iOS])),
-                .target(name: "cinema_macos", condition: .when(platforms: [.macOS]))
+                .target(name: "cinema_macos", condition: .when(platforms: [.macOS])),
             ]
         ),
         .target(
@@ -34,7 +34,8 @@ let package = Package(
         ),
         .target(
             name: "cinema_darwin_bindings",
-            path: "Sources/cinema_darwin_bindings"
-        )
+            path: "Sources/cinema_darwin_bindings",
+            publicHeadersPath: "."
+        ),
     ]
 )

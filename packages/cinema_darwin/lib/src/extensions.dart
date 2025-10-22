@@ -11,3 +11,23 @@ extension MediaExtensions on Media {
     };
   }
 }
+
+class NSErrorException implements Exception {
+  NSErrorException({required this.error});
+
+  final NSError error;
+
+  @override
+  String toString() {
+    return 'NSError: ${error.description}';
+  }
+}
+
+extension NSErrorExtensions on NSError {
+  String get description => localizedDescription.toDartString();
+  String? get failureReason => localizedFailureReason?.toDartString();
+
+  NSErrorException toException() {
+    return NSErrorException(error: this);
+  }
+}
