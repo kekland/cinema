@@ -17,4 +17,9 @@
   },
   "dart.flutterSdkPath": ".fvm/versions/3.35.3",
   "swift.disableAutoResolve": true,
+  "material-icon-theme.folders.associations": {
+    "cinema_android": "android",
+    "cinema_darwin": "ios",
+    "cinema_core": "core"
+  }
 }
